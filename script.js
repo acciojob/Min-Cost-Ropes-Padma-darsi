@@ -2,7 +2,7 @@ function mincost(arr)
 { 
 //write your code here
 // return the min cost
-	function mincost(arr) {
+
   if (arr.length === 1) return 0;
 
   const heap = arr.slice();         // copy the array
